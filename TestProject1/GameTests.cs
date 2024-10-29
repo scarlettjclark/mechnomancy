@@ -20,5 +20,11 @@ namespace Mechnomancy.Tests
         {
             Assert.That(_game.Deck.Where(card => card.ToString() == "Pyromana").Count(), Is.EqualTo(7));
         }
+
+        [Test]
+        public void GameInit_DeckStartsWithThreeSlugs_SlugCountInDeckIsThree()
+        {
+            Assert.That(_game.Deck.Where(card => card.ToString() == "Slug").Count(), Is.EqualTo(3));
+        }
     }
 }
