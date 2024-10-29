@@ -3,6 +3,7 @@
     public class Game
     {
         public IList<String> Deck { get; } = [];
+        public IList<String> Hand { get; } = [];
 
         public Game() { 
             for (int card = 0; card < 10; card++)

@@ -26,5 +26,11 @@ namespace Mechnomancy.Tests
         {
             Assert.That(_game.Deck.Where(card => card.ToString() == "Slug").Count(), Is.EqualTo(3));
         }
+
+        [Test]
+        public void GameInit_HandStartsEmpty_HandCountIsZero()
+        {
+            Assert.That(_game.Hand.Count, Is.EqualTo(0));
+        }
     }
 }
