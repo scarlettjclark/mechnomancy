@@ -74,7 +74,7 @@
         "projectName": "TestProject1",
         "projectPath": "C:\\Users\\jaycl\\source\\repos\\mechnomancy\\TestProject1\\TestProject1.csproj",
         "packagesPath": "C:\\Users\\jaycl\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jaycl\\source\\repos\\Mechnomancy\\TestProject1\\obj\\",
+        "outputPath": "C:\\Users\\jaycl\\source\\repos\\mechnomancy\\TestProject1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

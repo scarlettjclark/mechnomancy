@@ -1,0 +1,12 @@
+C:\Users\jaycl\source\repos\mechnomancy\Mechnomancy\bin\Debug\net8.0\Mechnomancy.deps.json
+C:\Users\jaycl\source\repos\mechnomancy\Mechnomancy\bin\Debug\net8.0\Mechnomancy.dll
+C:\Users\jaycl\source\repos\mechnomancy\Mechnomancy\bin\Debug\net8.0\Mechnomancy.pdb
+C:\Users\jaycl\source\repos\mechnomancy\Mechnomancy\obj\Debug\net8.0\Mechnomancy.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jaycl\source\repos\mechnomancy\Mechnomancy\obj\Debug\net8.0\Mechnomancy.AssemblyInfoInputs.cache
+C:\Users\jaycl\source\repos\mechnomancy\Mechnomancy\obj\Debug\net8.0\Mechnomancy.AssemblyInfo.cs
+C:\Users\jaycl\source\repos\mechnomancy\Mechnomancy\obj\Debug\net8.0\Mechnomancy.csproj.CoreCompileInputs.cache
+C:\Users\jaycl\source\repos\mechnomancy\Mechnomancy\obj\Debug\net8.0\Mechnomancy.sourcelink.json
+C:\Users\jaycl\source\repos\mechnomancy\Mechnomancy\obj\Debug\net8.0\Mechnomancy.dll
+C:\Users\jaycl\source\repos\mechnomancy\Mechnomancy\obj\Debug\net8.0\refint\Mechnomancy.dll
+C:\Users\jaycl\source\repos\mechnomancy\Mechnomancy\obj\Debug\net8.0\Mechnomancy.pdb
+C:\Users\jaycl\source\repos\mechnomancy\Mechnomancy\obj\Debug\net8.0\ref\Mechnomancy.dll

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OF+4xOSt+76Fa7arh8evYLVxC41nzgBkn2Y55OudlAViNptdny1PleHLLarffiMWNLnpJFVq6d4UoR2/mrtUzQ==",
+  "dgSpecHash": "tjCgblIKFnok64dL7QciaQRIOXkMCgVCQc10GECHcavIvBUxESfzf4+gAqF0QgIuLHj78bSpruQ9VZsDTDL4PQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jaycl\\source\\repos\\mechnomancy\\TestProject1\\TestProject1.csproj",
+  "projectFilePath": "C:\\Users\\jaycl\\source\\repos\\mechnomancy\\TestProject1\\MechnomancyTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jaycl\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\jaycl\\.nuget\\packages\\microsoft.codecoverage\\17.8.0\\microsoft.codecoverage.17.8.0.nupkg.sha512",

@@ -1004,11 +1004,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jaycl\\source\\repos\\mechnomancy\\TestProject1\\TestProject1.csproj",
-      "projectName": "TestProject1",
-      "projectPath": "C:\\Users\\jaycl\\source\\repos\\mechnomancy\\TestProject1\\TestProject1.csproj",
+      "projectUniqueName": "C:\\Users\\jaycl\\source\\repos\\mechnomancy\\TestProject1\\MechnomancyTests.csproj",
+      "projectName": "MechnomancyTests",
+      "projectPath": "C:\\Users\\jaycl\\source\\repos\\mechnomancy\\TestProject1\\MechnomancyTests.csproj",
       "packagesPath": "C:\\Users\\jaycl\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jaycl\\source\\repos\\Mechnomancy\\TestProject1\\obj\\",
+      "outputPath": "C:\\Users\\jaycl\\source\\repos\\mechnomancy\\TestProject1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
