@@ -18,19 +18,43 @@ namespace Mechnomancy.Tests
         [Test]
         public void GameInit_DeckStartsWithSevenPyromana_PyromanaCountInDeckIsSeven()
         {
-            Assert.That(_game.Deck.Where(card => card.ToString() == "Pyromana").Count(), Is.EqualTo(7));
+            IEnumerable<string> pyromanas = _game.Deck.Where(card => card.ToString() == "Pyromana");
+            Assert.That(pyromanas.Count, Is.EqualTo(7));
         }
 
         [Test]
         public void GameInit_DeckStartsWithThreeSlugs_SlugCountInDeckIsThree()
         {
-            Assert.That(_game.Deck.Where(card => card.ToString() == "Slug").Count(), Is.EqualTo(3));
+            IEnumerable<String> slugs = _game.Deck.Where(card => card.ToString() == "Slug");
+            Assert.That(slugs.Count, Is.EqualTo(3));
         }
 
         [Test]
         public void GameInit_HandStartsEmpty_HandCountIsZero()
         {
             Assert.That(_game.Hand.Count, Is.EqualTo(0));
+        }
+
+
+        [TestCase(1)]
+        [TestCase(2)]
+        [TestCase(5)]
+        public void Draw_DrawingAddsCardsToHand_HandCountMatchesCardsDrawn(
+            int cardsDrawn)
+        {
+            _game.Draw(cardsDrawn);
+            Assert.That(_game.Hand.Count, Is.EqualTo(cardsDrawn));
+        }
+
+        [TestCase(1)]
+        [TestCase(2)]
+        [TestCase(5)]
+        public void Draw_DrawingRemovesCardsFromDeck_DeckCountIsInitialDeckCountMinusCardsDrawn(
+            int cardsDrawn)
+        {
+            int initialDeckCount = _game.Deck.Count;
+            _game.Draw(cardsDrawn);
+            Assert.That(_game.Deck.Count, Is.EqualTo(initialDeckCount - cardsDrawn));
         }
     }
 }
