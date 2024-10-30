@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Mechnomancy")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c22b05a076db377d5576f7d75edb098b835d7a7c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f95f35fc5eb4633676324770667380d9ca82fb4a")]
 [assembly: System.Reflection.AssemblyProductAttribute("Mechnomancy")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Mechnomancy")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

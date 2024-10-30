@@ -4,6 +4,7 @@
     {
         public IList<Object> Deck { get; } = [];
         public IList<Object> Hand { get; } = [];
+        public IList<Object> DiscardPile { get; } = [];
 
         public Game() { 
             for (int card = 0; card < 10; card++)
@@ -28,6 +29,11 @@
                 Hand.Add(Deck[0]);
                 Deck.RemoveAt(0);
             }
+        }
+
+        public void Play()
+        {
+            Hand.RemoveAt(0);
         }
     }
 }

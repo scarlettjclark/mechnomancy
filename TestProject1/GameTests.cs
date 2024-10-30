@@ -56,5 +56,33 @@ namespace Mechnomancy.Tests
             _game.Draw(cardsDrawn);
             Assert.That(_game.Deck.Count, Is.EqualTo(initialDeckCount - cardsDrawn));
         }
+
+        [TestCase(11)]
+        public void Draw_DrawingMoreCardsThanAreInDeckAndDiscardThrowsException_ThrowsOutOfRangeException(int cardsDrawn)
+        {
+            Assert.Throws<ArgumentOutOfRangeException>(() => _game.Draw(cardsDrawn));
+        }
+
+        [Test]
+        public void Play_PlayRemovesCardFromHand_HandCountDecrements()
+        {
+            _game.Draw(5);
+            int handSize = _game.Hand.Count;
+            _game.Play();
+            Assert.That(_game.Hand.Count, Is.EqualTo(handSize - 1));
+        }
+
+        [Test]
+        public void Play_PlayingWithAnEmptyHandThrowsException_ThrowsOutOfRangeException()
+        {
+            Assert.Throws<ArgumentOutOfRangeException>(() => _game.Play());
+        }
+
+        public void Play_PlayingAddsCardToDiscardPile_DiscardPileCountIncrements()
+        {
+            _game.Draw(5);
+            int discardPileSize = _game.DiscardPile.Count;
+            _game.Play();
+        }
     }
 }
