@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jaycl\\source\\repos\\mechnomancy\\Mechnomancy\\Mechnomancy.csproj": {}
+    "C:\\Users\\jaycl\\source\\repos\\Mechnomancy\\Mechnomancy\\Mechnomancy.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jaycl\\source\\repos\\mechnomancy\\Mechnomancy\\Mechnomancy.csproj": {
+    "C:\\Users\\jaycl\\source\\repos\\Mechnomancy\\Mechnomancy\\Mechnomancy.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jaycl\\source\\repos\\mechnomancy\\Mechnomancy\\Mechnomancy.csproj",
+        "projectUniqueName": "C:\\Users\\jaycl\\source\\repos\\Mechnomancy\\Mechnomancy\\Mechnomancy.csproj",
         "projectName": "Mechnomancy",
-        "projectPath": "C:\\Users\\jaycl\\source\\repos\\mechnomancy\\Mechnomancy\\Mechnomancy.csproj",
+        "projectPath": "C:\\Users\\jaycl\\source\\repos\\Mechnomancy\\Mechnomancy\\Mechnomancy.csproj",
         "packagesPath": "C:\\Users\\jaycl\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\jaycl\\source\\repos\\mechnomancy\\Mechnomancy\\obj\\",
         "projectStyle": "PackageReference",

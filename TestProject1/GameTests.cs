@@ -18,14 +18,14 @@ namespace Mechnomancy.Tests
         [Test]
         public void GameInit_DeckStartsWithSevenPyromana_PyromanaCountInDeckIsSeven()
         {
-            IEnumerable<string> pyromanas = _game.Deck.Where(card => card.ToString() == "Pyromana");
+            IEnumerable<Object> pyromanas = _game.Deck.Where(card => card.ToString() == "Pyromana");
             Assert.That(pyromanas.Count, Is.EqualTo(7));
         }
 
         [Test]
         public void GameInit_DeckStartsWithThreeSlugs_SlugCountInDeckIsThree()
         {
-            IEnumerable<String> slugs = _game.Deck.Where(card => card.ToString() == "Slug");
+            IEnumerable<Object> slugs = _game.Deck.Where(card => card.ToString() == "Slug");
             Assert.That(slugs.Count, Is.EqualTo(3));
         }
 
