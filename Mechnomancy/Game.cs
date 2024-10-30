@@ -33,6 +33,7 @@
 
         public void Play()
         {
+            DiscardPile.Add(Hand[0]);
             Hand.RemoveAt(0);
         }
     }

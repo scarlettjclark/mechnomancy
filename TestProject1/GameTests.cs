@@ -78,11 +78,13 @@ namespace Mechnomancy.Tests
             Assert.Throws<ArgumentOutOfRangeException>(() => _game.Play());
         }
 
+        [Test]
         public void Play_PlayingAddsCardToDiscardPile_DiscardPileCountIncrements()
         {
             _game.Draw(5);
             int discardPileSize = _game.DiscardPile.Count;
             _game.Play();
+            Assert.That(_game.DiscardPile.Count, Is.EqualTo(discardPileSize + 1));
         }
     }
 }
