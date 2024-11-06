@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34616.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mechnomancy", "Mechnomancy\Mechnomancy.csproj", "{03A60FC4-3D57-4FC2-B219-07624824CF9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mechnomancy.Tests", "Mechnomancy.Tests\Mechnomancy.Tests.csproj", "{94D9B653-EDC5-4A49-AAC5-40A5ECBAC6E8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{03A60FC4-3D57-4FC2-B219-07624824CF9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03A60FC4-3D57-4FC2-B219-07624824CF9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03A60FC4-3D57-4FC2-B219-07624824CF9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03A60FC4-3D57-4FC2-B219-07624824CF9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94D9B653-EDC5-4A49-AAC5-40A5ECBAC6E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94D9B653-EDC5-4A49-AAC5-40A5ECBAC6E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94D9B653-EDC5-4A49-AAC5-40A5ECBAC6E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94D9B653-EDC5-4A49-AAC5-40A5ECBAC6E8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C809C067-9CAF-4975-8DE3-C02752B151B9}
+	EndGlobalSection
+EndGlobal
