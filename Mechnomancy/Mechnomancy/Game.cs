@@ -7,5 +7,13 @@
         public Game() {
             Deck = new StartingDeck();
         }
+
+        public void Draw(int cardsDrawn)
+        {
+            for (int card = 0; card < cardsDrawn; card++)
+            {
+                Deck.RemoveAt(0);
+            }
+        }
     }
 }
