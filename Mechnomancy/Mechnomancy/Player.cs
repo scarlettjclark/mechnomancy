@@ -38,5 +38,10 @@
             DiscardPile.Add(Hand[0]);
             Hand.RemoveAt(0);
         }
+
+        public void Play(int card)
+        {
+            Card temp = Hand[card];
+        }
     }
 }

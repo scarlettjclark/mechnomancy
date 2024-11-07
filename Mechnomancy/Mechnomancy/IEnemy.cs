@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace Mechnomancy
 {
-    public class Rototurret : IEnemy
+    public interface IEnemy
     {
-        public int Health { get; set; } = 5;
+        public int Health { get; set; }
     }
 }

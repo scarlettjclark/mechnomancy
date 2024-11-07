@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace Mechnomancy
 {
-    public class Rototurret : IEnemy
+    public abstract class TargetsEnemy : Card
     {
-        public int Health { get; set; } = 5;
+        public TargetsEnemy(string Name) : base(Name) { }
+        public abstract void Play(IEnemy enemy);
     }
 }

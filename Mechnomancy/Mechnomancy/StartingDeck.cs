@@ -13,11 +13,11 @@ namespace Mechnomancy
             {
                 if (i < 7)
                 {
-                    Add(new Card("Pyromana"));
+                    Add(new Pyromana());
                 }
                 else
                 {
-                    Add(new Card("Slug"));
+                    Add(new Slug());
                 }
             }
         }
