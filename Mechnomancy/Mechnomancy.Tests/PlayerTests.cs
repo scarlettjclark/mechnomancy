@@ -27,6 +27,17 @@
             Assert.Throws<ArgumentOutOfRangeException>(() => _player.Draw(_deck.Count() + 1));
         }
 
+        [TestCase(1)]
+        [TestCase(2)]
+        [TestCase(5)]
+        public void Draw_DrawAddsThatManyCardsToHand_HandCpuntIncreasesByCardsDrawn(
+            int cardsDrawn)
+        {
+            int initialHandCount = _player.Hand.Count();
+            _player.Draw(cardsDrawn);
+            Assert.That(_player.Hand.Count, Is.EqualTo(initialHandCount + cardsDrawn));
+        }
+
         [Test]
         public void Pyromana_PyromanaStartsAtZero_ReturnsZero()
         {

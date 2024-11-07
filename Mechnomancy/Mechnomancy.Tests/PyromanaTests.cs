@@ -23,7 +23,7 @@ namespace Mechnomancy.Tests
         [Test]
         public void Play_PyromanaAddsOneToThePlayersPyromana_PlayerPyromanaIncrements()
         {
-            Player player = new Player();
+            Player player = new Player(new StartingDeck());
             Pyromana pyromana = new Pyromana();
             int initialPyromana = player.Pyromana;
             pyromana.Play(player);
