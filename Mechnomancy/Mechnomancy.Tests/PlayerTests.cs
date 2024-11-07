@@ -1,14 +1,14 @@
 ﻿namespace Mechnomancy.Tests
 {
-    public class GameTests
+    public class PlayerTests
     {
-        Game _game;
+        Player _player;
         IEnumerable<Object> _deck;
         [SetUp]
         public void SetUp() 
         { 
-            _game = new();
-            _deck = _game.Deck;
+            _player = new Player(new StartingDeck());
+            _deck = _player.Deck;
         }
         [TestCase(1)]
         [TestCase(2)]
@@ -18,13 +18,19 @@
             )
         {
             int initialDeckCount = _deck.Count();
-            _game.Draw(cardsDrawn);
+            _player.Draw(cardsDrawn);
             Assert.That(_deck.Count, Is.EqualTo(initialDeckCount - cardsDrawn));
         }
         [Test]
         public void Deck_DrawingMoreCardsThanInDeckResultsInException_ThrowsArgumentOutOfRangeException()
         {
-            Assert.Throws<ArgumentOutOfRangeException>(() => _game.Draw(_deck.Count() + 1));
+            Assert.Throws<ArgumentOutOfRangeException>(() => _player.Draw(_deck.Count() + 1));
+        }
+
+        [Test]
+        public void Pyromana_PyromanaStartsAtZero_ReturnsZero()
+        {
+            Assert.That(_player.Pyromana, Is.EqualTo(0));
         }
     }
 }

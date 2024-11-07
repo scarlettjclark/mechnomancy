@@ -1,11 +1,18 @@
 ﻿namespace Mechnomancy
 {
-    public class Game
+    public class Player
     {
-        public StartingDeck Deck { get; private set; }
+        public IList<Card> Deck { get; private set; }
+        public int Pyromana { get; set; } = 0;
+
         
-        public Game() {
+        public Player() {
             Deck = new StartingDeck();
+        }
+
+        public Player(IList<Card> startingDeck)
+        {
+            Deck = startingDeck;
         }
 
         public void Draw(int cardsDrawn)

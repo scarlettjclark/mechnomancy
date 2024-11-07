@@ -6,19 +6,31 @@ using System.Threading.Tasks;
 
 namespace Mechnomancy
 {
-    public class StartingDeck : List<string>
+    public class StartingDeck : List<Card>
     {
         public StartingDeck() {
             for (int i = 0; i < 10; i++)
             {
                 if (i < 7)
                 {
-                    Add("Pyromana");
+                    Add(new Card("Pyromana"));
                 }
                 else
                 {
-                    Add("Slug");
+                    Add(new Card("Slug"));
                 }
+            }
+        }
+
+        public void Shuffle()
+        {
+            Random random = new Random();
+            Card[] sequence = this.ToArray();
+            random.Shuffle(sequence);
+            this.Clear();
+            foreach(Card card in sequence)
+            {
+                this.Add(card);
             }
         }
     }
